@@ -6,13 +6,11 @@ import cStringIO
 from cStringIO import StringIO
 import zlib
 import os
-import tempfile
 import csv
 from openerp.osv import fields, osv
 import logging
 import PIL
 from PIL import Image
-from flask import make_response
 
 logger = logging.getLogger(__name__)
 
